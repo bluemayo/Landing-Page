@@ -32,6 +32,14 @@
     color: #F9FAF8;
 }
 
+.container.copy{
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 3vh 10vw;
+    font-size: 18px;
+}
+
 .container.light{
     color: #1F2937;
     flex-direction: column;
@@ -39,6 +47,31 @@
 
 .container.grey{
     background-color: grey;
+    color: #E5E7EB;
+}
+
+.container.blue{
+    background-color: #3882F6;
+    margin: 10vh 10vw;
+    border-radius: 7px;
+    padding: 10vh 10vw;
+}
+
+.container.text{
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+}
+
+.calling{
+    color: #F9FAF8;
+    font-size: 38px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.calling.you{
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -100,6 +133,10 @@ button{
     padding: 5px 20px 5px 20px;
     border-radius: 7px;
     border: 2px solid #3882F6;
+}
+
+.white button{
+    border: 2px solid #F9FAF8;
 }
 
 .box{
